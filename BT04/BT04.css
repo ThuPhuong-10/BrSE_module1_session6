@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Design phần header */
+.header {
+    background-color: rgb(76 175 80);
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+.list-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.link-item {
+margin-right: 20px;
+font-size: 15px;
+color: blue;
+}
+.link-item:last-child {
+    margin-right: 0;
+}
+
+/* Design phần aside */
+.aside {
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    background-color: #f9f9f9;
+    border: grey solid 1px;
+    position: relative;
+    margin: 10px;
+}
+.aside .title {
+    padding: 10px 5px;
+}
+.aside .list-link {
+    text-align: left;
+    position: absolute;
+    left: 40px;
+}
+.aside .list-link .link-item {
+    color: blue;
+}
+
+/* Design phần bài viết */
+.article {
+    display: inline-block;
+    position: absolute;
+    left: calc(100%-350px);
+    width: 900px;
+    height: 500px;
+    margin: 10px 0;
+}
+.article-1 {
+    border-bottom: grey 1px solid;
+    padding: 10px 0;
+}
+.article .img {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.article .title {
+    margin-bottom: 10px;
+}
+.article .content {
+    margin-bottom: 10px;
+}
+
+/* Design phần footer */
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

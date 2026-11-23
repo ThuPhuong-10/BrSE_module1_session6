@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* design header */
+.header {
+    background-color: #4caf50;
+    height: 50px;
+}
+.Logo {
+    float: left;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.list-link {
+    float: right;
+}
+.list-link .link-item {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+.link-item:last-child {
+    margin-right: 0;
+}
+
+/* Design phần introduce */
+.welcome {
+    background-color: #f4f4f4;
+    height: 180px;
+    text-align: center;
+}
+.welcome-title {
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+.welcome-content {
+    margin-bottom: 10px;
+}
+.start-button a {
+    text-decoration: none;
+    color: white;
+}
+.start-button {
+    background-color: #4caf50;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* design phần feature */
+.feature {
+    padding: 10px;
+    text-align: center;
+}
+.feature-button {
+    background-color: #ddd;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 100px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.feature:last-child {
+    margin-right: 0;
+}
+
+/* design footer */
+footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 10px;
+}
